@@ -17,3 +17,7 @@ On commits to main the action will generate the pdf and upload it as an artifact
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests with improvements or bug fixes.
+
+## Example Output
+
+![image](media/resume.png)
