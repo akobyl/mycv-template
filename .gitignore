@@ -1,0 +1,6 @@
+*.out
+*.aux
+*.log
+resume.fdb_latexmk
+resume.fls
+resume.pdf

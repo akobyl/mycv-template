@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{array}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\setmainfont{Caladea}
+\definecolor{headingcolor}{RGB}{91,155,213}
+\newfontfamily\headingfont{Fira Sans}[Color=headingcolor]
+
+\begin{document}
+
+\begin{center}
+	{\headingfont\Huge\textbf{Your Name}} \\
+	123-987-5555 \textperiodcentered \href{mailto:email@email.com}{email@email.com} \textperiodcentered Kier, PE, USA
+\end{center}
+
+% Summary
+\begin{center}
+\noindent Technical wizard who bends Rust and Python to my will with intimidating ease. Delivering exceptional results without any of the typical nonsense that comes with it.
+\end{center}
+
+
+\section*{\headingfont Skills}
+\noindent
+\begin{multicols}{2}
+    \noindent
+    \begin{minipage}[t]{\columnwidth}
+        {\headingfont\textbf{Digital Sorcery}}
+		\begin{itemize}[label=›, leftmargin=1em, noitemsep, topsep=0pt]
+            \item Making impossible deadlines look easy
+            \item Turning caffeine into code that actually works
+            \item Speaking fluent Stack Overflow
+            \item Debugging nightmares before breakfast
+            \item Making legacy code bow to my will
+            \item Translating tech-speak to human language
+            \item Predicting bugs before they happen
+        \end{itemize}
+    \end{minipage}
+    \columnbreak
+    \noindent
+    \begin{minipage}[t]{\columnwidth}
+        {\headingfont\textbf{Tech Wizardry}}
+		\begin{itemize}[label=›, leftmargin=1em, noitemsep, topsep=0pt]
+            \item Taming wild requirements into submission
+            \item Rescuing doomed projects with style
+            \item Creating documentation people actually read
+            \item Turning chaos into organized systems
+            \item Making machines do my bidding
+            \item Solving problems others run from
+            \item Intimidating bugs with my mere presence
+        \end{itemize}
+    \end{minipage}
+\end{multicols}
+
+
+\section*{\headingfont Work Experience}
+
+\noindent\textbf{Principal Software Architect} \textperiodcentered Yoder Robotics (Hybrid, Boston, MA) \hfill 3/2019 - 10/2020
+
+\begin{itemize}[label=›, noitemsep, topsep=0pt, leftmargin=1em]
+	\item Architected and implemented a distributed neural network system in Rust that reduced autonomous vehicle decision latency by 78\%, enabling real-time obstacle avoidance capabilities in urban environments.
+	\item Led the development of a proprietary machine learning pipeline that processed 50TB of sensor data daily, resulting in a 35\% improvement in object recognition accuracy across various weather conditions.
+	\item Created a novel fault-tolerant communication protocol for robotic swarms, enabling seamless cooperation of 200+ units even under 40\% network degradation, a technology later licensed to two Fortune 500 companies.
+	\item Pioneered an embedded Linux kernel optimization that reduced boot time from 40 seconds to under 5 seconds, dramatically improving field deployment scenarios and saving an estimated \$2.3M in operational costs annually.
+\end{itemize}
+
+\noindent\textbf{Lead Systems Engineer} \textperiodcentered Quantum Compute Labs (Remote, San Francisco, CA) \hfill 6/2017 - 2/2019
+
+\begin{itemize}[label=›, noitemsep, topsep=0pt, leftmargin=1em]
+	\item Developed a Python-based quantum algorithm simulation framework that accurately predicted qubit decoherence patterns, increasing quantum operation stability by 47\% and enabling longer computation windows.
+	\item Engineered a revolutionary cooling system monitoring platform that prevented a catastrophic hardware failure, saving \$12M in equipment and preserving three months of critical research data.
+	\item Spearheaded the creation of a cross-platform visualization tool for quantum states that reduced algorithm development time by 62\% and was subsequently adopted by three major research universities.
+	\item Designed and implemented an automated CI/CD pipeline for quantum firmware that decreased deployment errors by 94\% and reduced update cycles from weeks to hours.
+\end{itemize}
+
+\noindent\textbf{Senior Firmware Specialist} \textperiodcentered MediTech Innovations (Onsite, Austin, TX) \hfill 9/2015 - 5/2017
+
+\begin{itemize}[label=›, noitemsep, topsep=0pt, leftmargin=1em]
+	\item Redesigned the firmware for a critical medical device using FreeRTOS, reducing power consumption by 68\% and extending battery life from 8 hours to 26 hours while maintaining full FDA compliance.
+	\item Implemented a secure over-the-air update system for implantable medical devices that maintained 99.9999\% reliability while adding military-grade encryption, a solution later mandated as company standard.
+	\item Developed a comprehensive test automation framework that identified 37 previously undiscovered edge cases, preventing potential patient safety incidents and saving an estimated \$30M in potential liability.
+	\item Created an embedded debugging tool that reduced diagnostic time from days to minutes, accelerating development cycles by 40\% and enabling the company to beat competitors to market by 5 months.
+\end{itemize}
+
+\noindent\textbf{IoT Systems Architect} \textperiodcentered GreenGrid Solutions (Hybrid, Portland, OR) \hfill 1/2013 - 8/2015
+
+\begin{itemize}[label=›, noitemsep, topsep=0pt, leftmargin=1em]
+	\item Designed and implemented a scalable IoT platform using Rust and C that managed 500,000+ smart grid sensors, resulting in a 23\% improvement in energy distribution efficiency across three major metropolitan areas.
+	\item Architected a revolutionary peer-to-peer security protocol for edge devices that withstood penetration testing by three independent security firms and was later published as an IEEE standard.
+	\item Led the development of a predictive maintenance system using machine learning that decreased unplanned outages by 87\% and saved an estimated \$45M in operational costs over two years.
+	\item Created a custom Linux distribution for energy monitoring devices that required 42\% less storage space while improving processing speed by 31\%, enabling deployment on lower-cost hardware and saving \$3.2M in device costs.
+\end{itemize}
+
+\section*{\headingfont\color{headingcolor} Education}
+
+\noindent\textbf{Bachelor of Science in Digital Sorcery} \\
+Massachusetts Institute of Technology (MIT) \hfill 5/2008 
+\\[0.5em]
+\noindent\textbf{Master of Science in Robot Whispering} \\
+California Institute of Technology (Caltech) \hfill 5/2010 \\
+\\[0.5em]
+\noindent\textbf{PhD in Impossible Problem Solving} \\
+Stanford University \hfill 5/2012 \\
+\\[0.5em]
+\noindent\textbf{Certificate in Advanced Caffeine-to-Code Conversion} \\
+Harvard Extension School \hfill 8/2013 \\
+
+\end{document}

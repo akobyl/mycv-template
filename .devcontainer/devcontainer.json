@@ -1,0 +1,14 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "james-yu.latex-workshop",
+        "nickfode.latex-formatter",
+        "valentjn.vscode-ltex"
+      ]
+    }
+  }
+}

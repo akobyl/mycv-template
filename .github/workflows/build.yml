@@ -1,0 +1,26 @@
+name: Build Resume
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: dev container build
+      uses: devcontainers/ci@v0.3
+      with:
+        runCmd: make
+        imageName: latex-custom
+        push: never
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume-PDF
+        path: resume.pdf
+        if-no-files-found: error
