@@ -9,6 +9,7 @@
 \usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{array}
+\usepackage{titlesec}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -16,12 +17,13 @@
 \setmainfont{Caladea}
 \definecolor{headingcolor}{RGB}{91,155,213}
 \newfontfamily\headingfont{Fira Sans}[Color=headingcolor]
+\titlespacing*{\section}{0pt}{0.5em}{0.5em}
 
 \begin{document}
 
 \begin{center}
 	{\headingfont\Huge\textbf{Your Name}} \\
-	123-987-5555 \textperiodcentered \href{mailto:email@email.com}{email@email.com} \textperiodcentered Kier, PE, USA
+  (123) 987-5555 \textperiodcentered \href{mailto:email@email.com}{email@email.com} \textperiodcentered Kier, PE, USA
 \end{center}
 
 % Summary
@@ -65,7 +67,7 @@
 
 \section*{\headingfont Work Experience}
 
-\begin{itemize}[noitemsep, topsep=0pt, itemsep=1.5em, label=]
+\begin{itemize}[noitemsep, topsep=0pt, itemsep=1.5em, label=, leftmargin=0em]
 \item \textbf{Principal Software Architect} \textperiodcentered Yoder Robotics (Hybrid, Boston, MA) \hfill 3/2019 - 10/2020
 
 \begin{itemize}[label=›, noitemsep, topsep=0pt, leftmargin=1em]
